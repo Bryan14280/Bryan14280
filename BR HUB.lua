@@ -163,16 +163,3 @@ OrionLib:MakeNotification({
 })
   	end    
 })
-
-Jogos:AddButton({
-	Name = "Evade 1 (PC)",
-	Callback = function()
-      	loadstring(game:HttpGet('https://raw.githubusercontent.com/9Strew/roblox/main/gamescripts/evade.lua'))()
-OrionLib:MakeNotification({
-	Name = "Carregado !",
-	Content = "Evade script carregado com sucesso !",
-	Image = "rbxassetid://",
-	Time = 5
-})
-  	end    
-})
