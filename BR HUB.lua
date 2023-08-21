@@ -121,7 +121,7 @@ OrionLib:MakeNotification({
 
 local Aimbots = Window:MakeTab({
 	Name = "Aimbots",
-	Icon = "rbxassetid://4483345998",
+	Icon = "rbxassetid://",
 	PremiumOnly = false
 })
 
