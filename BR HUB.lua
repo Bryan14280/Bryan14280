@@ -5,10 +5,15 @@ local Window = OrionLib:MakeWindow({Name = "BRHUB (Versão 0.1)", HidePremium = 
 OrionLib:MakeNotification({
 	Name = "Carregando BRHUB... ",
 	Content = "Seja bem vindo !",
-	Image = "rbxassetid://0",
+	Image = "rbxassetid://",
 	Time = 5
 })
 
+local Jogos = Window:MakeTab({
+	Name = "Jogos",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
 
 local Info = Window:MakeTab({
 	Name = "Informações",
@@ -33,7 +38,7 @@ Scripts:AddButton({
       		OrionLib:MakeNotification({
 	Name = "Falha !",
 	Content = "O CMD X Teve uma falha na hora de carregar ! Para empedir que seja expulso não o colocamos no jogo.",
-	Image = "rbxassetid://9007342714",
+	Image = "rbxassetid://",
 	Time = 5
 })
 
@@ -142,10 +147,7 @@ OrionLib:MakeNotification({
 })
   	end    
 
-		local Jogos = Window:MakeTab({
-	Name = "Jogos",
-	Icon = "rbxassetid://",
-	PremiumOnly = false
+	
 })
 })
 
