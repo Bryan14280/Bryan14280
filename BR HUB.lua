@@ -1,6 +1,6 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
-local Window = OrionLib:MakeWindow({Name = "BRHUB (Versão 0.1)", HidePremium = false, SaveConfig = false, ConfigFolder = "OrionTest", IntroEnabled = false})
+local Window = OrionLib:MakeWindow({Name = "BRHUB (Versão BETA)", HidePremium = false, SaveConfig = false, ConfigFolder = "OrionTest", IntroEnabled = false})
 
 OrionLib:MakeNotification({
 	Name = "Carregando BRHUB... ",
@@ -9,22 +9,46 @@ OrionLib:MakeNotification({
 	Time = 5
 })
 
-local Game = Window:MakeTab({
-	Name = "Game",
-	Icon = "rbxassetid://",
-	PremiumOnly = false
-})
 
-local Jogos = Window:MakeTab({
-	Name = "Jogos",
-	Icon = "rbxassetid://",
-	PremiumOnly = false
-})
 
 local Info = Window:MakeTab({
 	Name = "Informações",
 	Icon = "rbxassetid://",
 	PremiumOnly = false
+})
+
+local Game = Window:MakeTab({
+	Name = "Jogos",
+	Icon = "rbxassetid://",
+	PremiumOnly = false
+})
+
+Game:AddLabel("Seção de jogos")
+
+Game:AddButton({
+	Name = "Evade",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/9Strew/roblox/main/gamescripts/evade.lua'))()
+      		OrionLib:MakeNotification({
+	Name = "Carregado !",
+	Content = "Evade script carregado com sucesso !",
+	Image = "rbxassetid://",
+	Time = 5
+})
+  	end    
+})
+
+Game:AddButton({
+	Name = "Break in",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/RubyBoo4life/break-in-v1/main/.gitignore"))();
+      		OrionLib:MakeNotification({
+	Name = "Carregado !",
+	Content = "Break in script carregado com sucesso !",
+	Image = "rbxassetid://",
+	Time = 5
+})
+  	end    
 })
 
 Info:AddLabel("Creditos:")
@@ -37,6 +61,8 @@ local Scripts = Window:MakeTab({
 	Icon = "rbxassetid://",
 	PremiumOnly = false
 })
+
+Scripts:AddLabel("Seção de Scripts Universais")
 
 Scripts:AddButton({
 	Name = "CMD X (Universal)",
@@ -64,10 +90,11 @@ OrionLib:MakeNotification({
   	end    
 })
 
+
 Scripts:AddButton({
 	Name = "Dex Explorer V4 (Universal/Bugado)",
 	Callback = function()
-      		loadstring(game:GetObjects("rbxassetid://0")[1].Source)()
+      		loadstring(game:GetObjects("rbxassetid://418957341")[1].Source)()
 OrionLib:MakeNotification({
 	Name = "Carregado !",
 	Content = "Dex Explorer V4 carregado com sucesso !",
@@ -92,6 +119,13 @@ OrionLib:MakeNotification({
   	end    
 })
 
+local Aimbots = Window:MakeTab({
+	Name = "Aimbots",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Aimbots:AddLabel("Seção de Aimbots")
 
 Aimbots:AddButton({
 	Name = "Aimbot 1 BusWare",
@@ -142,35 +176,6 @@ Aimbots:AddButton({
 OrionLib:MakeNotification({
 	Name = "Carregado !",
 	Content = "Aimbot Ropex Hub carregado com sucesso !",
-	Image = "rbxassetid://",
-	Time = 5
-})
-  	end    
-
-	
-})
-})
-
-Jogos:AddButton({
-	Name = "Doors 1 (PC)",
-	Callback = function()
-      		loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/MSDOORS/main/MSHUB_Loader.lua"),true))()
-OrionLib:MakeNotification({
-	Name = "Carregado !",
-	Content = "Doors script carregado com sucesso !",
-	Image = "rbxassetid://",
-	Time = 5
-})
-  	end    
-})
-
-Jogos:AddButton({
-	Name = "Evade 1 (PC)",
-	Callback = function()
-      	loadstring(game:HttpGet('https://raw.githubusercontent.com/9Strew/roblox/main/gamescripts/evade.lua'))()
-OrionLib:MakeNotification({
-	Name = "Carregado !",
-	Content = "Evade script carregado com sucesso !",
 	Image = "rbxassetid://",
 	Time = 5
 })
