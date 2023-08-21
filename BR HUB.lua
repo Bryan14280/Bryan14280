@@ -9,9 +9,15 @@ OrionLib:MakeNotification({
 	Time = 5
 })
 
+local Game = Window:MakeTab({
+	Name = "Game",
+	Icon = "rbxassetid://",
+	PremiumOnly = false
+})
+
 local Jogos = Window:MakeTab({
 	Name = "Jogos",
-	Icon = "rbxassetid://4483345998",
+	Icon = "rbxassetid://",
 	PremiumOnly = false
 })
 
@@ -84,12 +90,6 @@ OrionLib:MakeNotification({
 })
 
   	end    
-})
-
-local Aimbots = Window:MakeTab({
-	Name = "Aimbots",
-	Icon = "rbxassetid://",
-	PremiumOnly = false
 })
 
 
