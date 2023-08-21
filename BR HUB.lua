@@ -5,14 +5,14 @@ local Window = OrionLib:MakeWindow({Name = "BRHUB (Versão 0.1)", HidePremium = 
 OrionLib:MakeNotification({
 	Name = "Carregando BRHUB... ",
 	Content = "Seja bem vindo !",
-	Image = "rbxassetid://14514061310",
+	Image = "rbxassetid://0",
 	Time = 5
 })
 
 
 local Info = Window:MakeTab({
 	Name = "Informações",
-	Icon = "rbxassetid://14514061310",
+	Icon = "rbxassetid://",
 	PremiumOnly = false
 })
 
@@ -23,7 +23,7 @@ Info:AddLabel("Overakira#00-")
 
 local Scripts = Window:MakeTab({
 	Name = "Scripts Universais",
-	Icon = "rbxassetid://14514061310",
+	Icon = "rbxassetid://",
 	PremiumOnly = false
 })
 
@@ -56,11 +56,11 @@ OrionLib:MakeNotification({
 Scripts:AddButton({
 	Name = "Dex Explorer V4 (Universal/Bugado)",
 	Callback = function()
-      		loadstring(game:GetObjects("rbxassetid://14514061310")[1].Source)()
+      		loadstring(game:GetObjects("rbxassetid://0")[1].Source)()
 OrionLib:MakeNotification({
 	Name = "Carregado !",
 	Content = "Dex Explorer V4 carregado com sucesso !",
-	Image = "rbxassetid://14514061310",
+	Image = "rbxassetid://",
 	Time = 5
 })
 
@@ -74,7 +74,7 @@ Scripts:AddButton({
 OrionLib:MakeNotification({
 	Name = "Carregado !",
 	Content = "Dark Dex V4 carregado com sucesso !",
-	Image = "rbxassetid://14514061310",
+	Image = "rbxassetid://",
 	Time = 5
 })
 
@@ -83,7 +83,7 @@ OrionLib:MakeNotification({
 
 local Aimbots = Window:MakeTab({
 	Name = "Aimbots",
-	Icon = "rbxassetid://14514061310",
+	Icon = "rbxassetid://",
 	PremiumOnly = false
 })
 
@@ -95,7 +95,7 @@ Aimbots:AddButton({
 OrionLib:MakeNotification({
 	Name = "Carregado !",
 	Content = "Aimbot BusWare carregado com sucesso !",
-	Image = "rbxassetid://14514061310",
+	Image = "rbxassetid://",
 	Time = 5
 })
   	end    
@@ -108,7 +108,7 @@ Aimbots:AddButton({
 OrionLib:MakeNotification({
 	Name = "Carregado !",
 	Content = "Aimbot Owl Hub carregado com sucesso !",
-	Image = "rbxassetid://14514061310",
+	Image = "rbxassetid://",
 	Time = 5
 })
   	end    
@@ -124,7 +124,7 @@ loadstring(game:HttpGet(Source .. "Loader.lua"),"Loader")(Branch,NotificationTim
 OrionLib:MakeNotification({
 	Name = "Carregado !",
 	Content = "Aimbot Parvus Hub carregado com sucesso !",
-	Image = "rbxassetid://14514061310",
+	Image = "rbxassetid://",
 	Time = 5
 })
   	end    
@@ -137,14 +137,14 @@ Aimbots:AddButton({
 OrionLib:MakeNotification({
 	Name = "Carregado !",
 	Content = "Aimbot Ropex Hub carregado com sucesso !",
-	Image = "rbxassetid://14514061310",
+	Image = "rbxassetid://",
 	Time = 5
 })
   	end    
 
 		local Jogos = Window:MakeTab({
 	Name = "Jogos",
-	Icon = "rbxassetid://14514061310",
+	Icon = "rbxassetid://",
 	PremiumOnly = false
 })
 })
@@ -169,7 +169,7 @@ Jogos:AddButton({
 OrionLib:MakeNotification({
 	Name = "Carregado !",
 	Content = "Evade script carregado com sucesso !",
-	Image = "rbxassetid://14514061310",
+	Image = "rbxassetid://",
 	Time = 5
 })
   	end    
