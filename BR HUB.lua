@@ -52,20 +52,6 @@ Game:AddButton({
 })
 
 Game:AddButton({
-	Name = "Vehicle Legends",
-	Callback = function()
-      		loadstring(game:HttpGet('https://scripts.luawl.com/hosted/2399/18728/FiberHubFree.lua'))()
-      		OrionLib:MakeNotification({
-	Name = "Carregado !",
-	Content = "Vehicle Legends script carregado com sucesso ! (Aperte F9 Para ver a key !)",
-	Image = "rbxassetid://",
-	Time = 5
-	
-})
-  	end    
-})
-
-Game:AddButton({
 	Name = "Bad Business",
 	Callback = function()
       		local IsDevelopmentBranch,NotificationTime = false,5
