@@ -59,7 +59,7 @@ Game:AddButton({
 	Content = "Vehicle Legends script carregado com sucesso ! (Aperte F9 Para ver a key !)",
 	Image = "rbxassetid://",
 	Time = 5
-					print("WELOVEFIBERHUB120908")
+	
 })
   	end    
 })
