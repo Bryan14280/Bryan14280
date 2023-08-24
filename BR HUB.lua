@@ -1,6 +1,6 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
-local Window = OrionLib:MakeWindow({Name = "BRHUB (Versão 0.01)", HidePremium = false, SaveConfig = false, ConfigFolder = "OrionTest", IntroEnabled = false})
+local Window = OrionLib:MakeWindow({Name = "BRHUB (Versão 0.2)", HidePremium = false, SaveConfig = false, ConfigFolder = "OrionTest", IntroEnabled = false})
 
 OrionLib:MakeNotification({
 	Name = "Carregando BRHUB... ",
@@ -32,6 +32,85 @@ Game:AddButton({
       		OrionLib:MakeNotification({
 	Name = "Carregado !",
 	Content = "Evade script carregado com sucesso !",
+	Image = "rbxassetid://",
+	Time = 5
+})
+  	end    
+})
+
+Game:AddButton({
+	Name = "VolleyBall",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ahyesvery/NoLF/main/script"))()
+
+      		OrionLib:MakeNotification({
+	Name = "Carregado !",
+	Content = "VolleyBall Sem falta de linha script carregado com sucesso !",
+	Image = "rbxassetid://",
+	Time = 5
+})
+  	end    
+})
+
+Game:AddButton({
+	Name = "Doors",
+	Callback = function()
+      		loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/MSDOORS/main/MSHUB_Loader.lua"),true))()
+      		OrionLib:MakeNotification({
+	Name = "Carregado !",
+	Content = "Doors script 1 carregado com sucesso !",
+	Image = "rbxassetid://",
+	Time = 5
+})
+  	end    
+})
+
+Game:AddButton({
+	Name = "Da hood",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Zinzs/luascripting/main/canyoutellitsadahoodscriptornot.lua"))()
+      		OrionLib:MakeNotification({
+	Name = "Carregado !",
+	Content = "Da hood script carregado com sucesso !",
+	Image = "rbxassetid://",
+	Time = 5
+})
+  	end    
+})
+
+Game:AddButton({
+	Name = "Da hood",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Zinzs/luascripting/main/canyoutellitsadahoodscriptornot.lua"))()
+      		OrionLib:MakeNotification({
+	Name = "Carregado !",
+	Content = "Da hood script carregado com sucesso !",
+	Image = "rbxassetid://",
+	Time = 5
+})
+  	end    
+})
+
+Game:AddButton({
+	Name = "Ragdoll Engine",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/i4mitty/MysteryHub/main/MysteryHub%20-%20Ragdoll%20Engine.lua"))()
+      		OrionLib:MakeNotification({
+	Name = "Carregado !",
+	Content = "Ragdoll Engine script carregado com sucesso !",
+	Image = "rbxassetid://",
+	Time = 5
+})
+  	end    
+})
+
+Game:AddButton({
+	Name = "Murder Mystery 2 TrollFace",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Zinzs/luascripting/main/canyoutellitsadahoodscriptornot.lua"))()
+      		OrionLib:MakeNotification({
+	Name = "Carregado !",
+	Content = "Murder Mystery 2 TrollFace Edition script carregado com sucesso !",
 	Image = "rbxassetid://",
 	Time = 5
 })
