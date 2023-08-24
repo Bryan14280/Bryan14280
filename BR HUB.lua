@@ -38,6 +38,7 @@ Game:AddButton({
   	end    
 })
 
+
 Game:AddButton({
 	Name = "VolleyBall",
 	Callback = function()
@@ -79,12 +80,12 @@ Game:AddButton({
 })
 
 Game:AddButton({
-	Name = "Da hood",
+	Name = "BedWars",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Zinzs/luascripting/main/canyoutellitsadahoodscriptornot.lua"))()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/Storm99999/Astolfo4Roblox/main/src/main/script.lua'))()
       		OrionLib:MakeNotification({
 	Name = "Carregado !",
-	Content = "Da hood script carregado com sucesso !",
+	Content = "BedWars script carregado com sucesso !",
 	Image = "rbxassetid://",
 	Time = 5
 })
