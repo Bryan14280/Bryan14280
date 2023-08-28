@@ -1,20 +1,22 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
-local Window = OrionLib:MakeWindow({Name = "BRHUB (Versão 0.4)", HidePremium = false, SaveConfig = false, ConfigFolder = "OrionTest", IntroEnabled = false})
-
 OrionLib:MakeNotification({
 	Name = "Carregando BRHUB... ",
 	Content = "Seja bem vindo !",
 	Image = "rbxassetid://",
 	Time = 3
 })
-
+wait(2)
 OrionLib:MakeNotification({
 	Name = "Atualizado para a versão 0.3 ! ",
 	Content = "Adicionado mais jogos a área GAMES ",
 	Image = "rbxassetid://",
 	Time = 5
 })
+
+wait(5)
+
+local Window = OrionLib:MakeWindow({Name = "BRHUB (Versão 0.3)", HidePremium = false, SaveConfig = false, ConfigFolder = "OrionTest", IntroEnabled = false})
 
 local Info = Window:MakeTab({
 	Name = "Informações",
