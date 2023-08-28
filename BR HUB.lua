@@ -16,7 +16,7 @@ OrionLib:MakeNotification({
 
 wait(5)
 
-local Window = OrionLib:MakeWindow({Name = "BRHUB (Versão 0.3)", HidePremium = false, SaveConfig = false, ConfigFolder = "OrionTest", IntroEnabled = false})
+local Window = OrionLib:MakeWindow({Name = "BRHUB (Versão 0.4)", HidePremium = false, SaveConfig = false, ConfigFolder = "OrionTest", IntroEnabled = false})
 
 local Info = Window:MakeTab({
 	Name = "Informações",
