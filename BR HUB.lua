@@ -9,14 +9,12 @@ OrionLib:MakeNotification({
 	Time = 3
 })
 
-wait(2)
 OrionLib:MakeNotification({
 	Name = "Atualizado para a versão 0.3 ! ",
 	Content = "Adicionado mais jogos a área -GAMES- ",
 	Image = "rbxassetid://",
 	Time = 5
 })
-wait(5)
 
 local Info = Window:MakeTab({
 	Name = "Informações",
