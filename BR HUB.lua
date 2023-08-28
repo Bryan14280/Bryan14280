@@ -31,12 +31,12 @@ local Game = Window:MakeTab({
 Game:AddLabel("Seção de jogos")
 
 Game:AddButton({
-	Name = "Evade",
+	Name = "Break in",
 	Callback = function()
-      		loadstring(game:HttpGet('https://raw.githubusercontent.com/9Strew/roblox/main/gamescripts/evade.lua'))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/RubyBoo4life/break-in-v1/main/.gitignore"))();
       		OrionLib:MakeNotification({
 	Name = "Carregado !",
-	Content = "Evade script carregado com sucesso !",
+	Content = "Break in script carregado com sucesso !",
 	Image = "rbxassetid://",
 	Time = 5
 })
@@ -57,143 +57,12 @@ Game:AddButton({
 })
 
 Game:AddButton({
-	Name = "World Of Aincraft",
-	Callback = function()
-      		loadstring(game:HttpGet('https://raw.githubusercontent.com/Bebo-Mods/BeboScripts/main/AincradGame.lua'))()
-      		OrionLib:MakeNotification({
-	Name = "Carregado !",
-	Content = "World Of Aincraft script carregado com sucesso !",
-	Image = "rbxassetid://",
-	Time = 5
-})
-  	end    
-})
-
-Game:AddButton({
-	Name = "King Legacy",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-05/HUB/main/Script"))()
-      		OrionLib:MakeNotification({
-	Name = "Carregado !",
-	Content = "King Legacy script carregado com sucesso ! (PC E MOBILE) / BLOX FRUITS",
-	Image = "rbxassetid://",
-	Time = 5
-})
-  	end    
-})
-
-Game:AddButton({
-	Name = "Phantom Forces",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/VoidMasterX/strawhook/main/script.lua", true))()
-      		OrionLib:MakeNotification({
-	Name = "Carregado !",
-	Content = "Phantom Forces script carregado com sucesso !",
-	Image = "rbxassetid://",
-	Time = 5
-})
-  	end    
-})
-
-Game:AddButton({
-	Name = "Krush Pvp",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/Aimbot-V2/main/Resources/Scripts/Main.lua"))()
-      		OrionLib:MakeNotification({
-	Name = "Carregado !",
-	Content = "World Of Aincraft script carregado com sucesso !",
-	Image = "rbxassetid://",
-	Time = 5
-})
-  	end    
-})
-
-Game:AddButton({
-	Name = "VolleyBall",
-	Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ahyesvery/NoLF/main/script"))()
-
-      		OrionLib:MakeNotification({
-	Name = "Carregado !",
-	Content = "VolleyBall Sem falta de linha script carregado com sucesso !",
-	Image = "rbxassetid://",
-	Time = 5
-})
-  	end    
-})
-
-Game:AddButton({
-	Name = "Doors",
-	Callback = function()
-      		loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/MSDOORS/main/MSHUB_Loader.lua"),true))()
-      		OrionLib:MakeNotification({
-	Name = "Carregado !",
-	Content = "Doors script 1 carregado com sucesso !",
-	Image = "rbxassetid://",
-	Time = 5
-})
-  	end    
-})
-
-Game:AddButton({
-	Name = "Da hood",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Zinzs/luascripting/main/canyoutellitsadahoodscriptornot.lua"))()
-      		OrionLib:MakeNotification({
-	Name = "Carregado !",
-	Content = "Da hood script carregado com sucesso !",
-	Image = "rbxassetid://",
-	Time = 5
-})
-  	end    
-})
-
-Game:AddButton({
 	Name = "BedWars",
 	Callback = function()
       		loadstring(game:HttpGet('https://raw.githubusercontent.com/Storm99999/Astolfo4Roblox/main/src/main/script.lua'))()
       		OrionLib:MakeNotification({
 	Name = "Carregado !",
 	Content = "BedWars script carregado com sucesso !",
-	Image = "rbxassetid://",
-	Time = 5
-})
-  	end    
-})
-
-Game:AddButton({
-	Name = "Ragdoll Engine",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/i4mitty/MysteryHub/main/MysteryHub%20-%20Ragdoll%20Engine.lua"))()
-      		OrionLib:MakeNotification({
-	Name = "Carregado !",
-	Content = "Ragdoll Engine script carregado com sucesso !",
-	Image = "rbxassetid://",
-	Time = 5
-})
-  	end    
-})
-
-Game:AddButton({
-	Name = "Murder Mystery 2 TrollFace",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Zinzs/luascripting/main/canyoutellitsadahoodscriptornot.lua"))()
-      		OrionLib:MakeNotification({
-	Name = "Carregado !",
-	Content = "Murder Mystery 2 TrollFace Edition script carregado com sucesso !",
-	Image = "rbxassetid://",
-	Time = 5
-})
-  	end    
-})
-
-Game:AddButton({
-	Name = "Tower of Hell",
-	Callback = function()
-      		loadstring(game:HttpGet('https://pastebin.com/raw/BbVHjH56'))()
-      		OrionLib:MakeNotification({
-	Name = "Carregado !",
-	Content = "Tower of Hell script carregado com sucesso !",
 	Image = "rbxassetid://",
 	Time = 5
 })
@@ -227,6 +96,46 @@ Game:AddButton({
 })
   	end    
 })
+
+Game:AddButton({
+	Name = "Da hood",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Zinzs/luascripting/main/canyoutellitsadahoodscriptornot.lua"))()
+      		OrionLib:MakeNotification({
+	Name = "Carregado !",
+	Content = "Da hood script carregado com sucesso !",
+	Image = "rbxassetid://",
+	Time = 5
+})
+  	end    
+})
+
+Game:AddButton({
+	Name = "Doors",
+	Callback = function()
+      		loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/MSDOORS/main/MSHUB_Loader.lua"),true))()
+      		OrionLib:MakeNotification({
+	Name = "Carregado !",
+	Content = "Doors script 1 carregado com sucesso !",
+	Image = "rbxassetid://",
+	Time = 5
+})
+  	end    
+})
+
+Game:AddButton({
+	Name = "Evade",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/9Strew/roblox/main/gamescripts/evade.lua'))()
+      		OrionLib:MakeNotification({
+	Name = "Carregado !",
+	Content = "Evade script carregado com sucesso !",
+	Image = "rbxassetid://",
+	Time = 5
+})
+  	end    
+})
+
 Game:AddButton({
 	Name = "Flee the Facility",
 	Callback = function()
@@ -234,6 +143,46 @@ Game:AddButton({
       		OrionLib:MakeNotification({
 	Name = "Carregado !",
 	Content = "Flee the Facility script carregado com sucesso !",
+	Image = "rbxassetid://",
+	Time = 5
+})
+  	end    
+})
+
+
+Game:AddButton({
+	Name = "King Legacy",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-05/HUB/main/Script"))()
+      		OrionLib:MakeNotification({
+	Name = "Carregado !",
+	Content = "King Legacy script carregado com sucesso ! (PC E MOBILE) / BLOX FRUITS",
+	Image = "rbxassetid://",
+	Time = 5
+})
+  	end    
+})
+
+Game:AddButton({
+	Name = "Krush Pvp",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/Aimbot-V2/main/Resources/Scripts/Main.lua"))()
+      		OrionLib:MakeNotification({
+	Name = "Carregado !",
+	Content = "World Of Aincraft script carregado com sucesso !",
+	Image = "rbxassetid://",
+	Time = 5
+})
+  	end    
+})
+
+Game:AddButton({
+	Name = "Murder Mystery 2 TrollFace",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Zinzs/luascripting/main/canyoutellitsadahoodscriptornot.lua"))()
+      		OrionLib:MakeNotification({
+	Name = "Carregado !",
+	Content = "Murder Mystery 2 TrollFace Edition script carregado com sucesso !",
 	Image = "rbxassetid://",
 	Time = 5
 })
@@ -254,17 +203,71 @@ Game:AddButton({
 })
 
 Game:AddButton({
-	Name = "Break in",
+	Name = "Phantom Forces",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/RubyBoo4life/break-in-v1/main/.gitignore"))();
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/VoidMasterX/strawhook/main/script.lua", true))()
       		OrionLib:MakeNotification({
 	Name = "Carregado !",
-	Content = "Break in script carregado com sucesso !",
+	Content = "Phantom Forces script carregado com sucesso !",
 	Image = "rbxassetid://",
 	Time = 5
 })
   	end    
 })
+
+Game:AddButton({
+	Name = "Ragdoll Engine",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/i4mitty/MysteryHub/main/MysteryHub%20-%20Ragdoll%20Engine.lua"))()
+      		OrionLib:MakeNotification({
+	Name = "Carregado !",
+	Content = "Ragdoll Engine script carregado com sucesso !",
+	Image = "rbxassetid://",
+	Time = 5
+})
+  	end    
+})
+
+Game:AddButton({
+	Name = "Tower of Hell",
+	Callback = function()
+      		loadstring(game:HttpGet('https://pastebin.com/raw/BbVHjH56'))()
+      		OrionLib:MakeNotification({
+	Name = "Carregado !",
+	Content = "Tower of Hell script carregado com sucesso !",
+	Image = "rbxassetid://",
+	Time = 5
+})
+  	end    
+})
+
+Game:AddButton({
+	Name = "VolleyBall",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ahyesvery/NoLF/main/script"))()
+
+      		OrionLib:MakeNotification({
+	Name = "Carregado !",
+	Content = "VolleyBall Sem falta de linha script carregado com sucesso !",
+	Image = "rbxassetid://",
+	Time = 5
+})
+  	end    
+})
+
+Game:AddButton({
+	Name = "World Of Aincraft",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/Bebo-Mods/BeboScripts/main/AincradGame.lua'))()
+      		OrionLib:MakeNotification({
+	Name = "Carregado !",
+	Content = "World Of Aincraft script carregado com sucesso !",
+	Image = "rbxassetid://",
+	Time = 5
+})
+  	end    
+})
+
 
 Info:AddLabel("Creditos:")
 Info:AddLabel("bryanbila")
