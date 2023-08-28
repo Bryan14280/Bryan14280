@@ -6,15 +6,13 @@ OrionLib:MakeNotification({
 	Image = "rbxassetid://",
 	Time = 3
 })
-wait(2)
+wait(5)
 OrionLib:MakeNotification({
 	Name = "Atualizado para a versão 0.4 ! ",
 	Content = "Adicionado mais jogos a área GAMES ",
 	Image = "rbxassetid://",
 	Time = 5
 })
-
-wait(5)
 
 local Window = OrionLib:MakeWindow({Name = "BRHUB (Versão 0.4)", HidePremium = false, SaveConfig = false, ConfigFolder = "OrionTest", IntroEnabled = false})
 
