@@ -173,18 +173,18 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/GuruScripts/GuruHub/m
 	Image = "rbxassetid://",
 	Time = 5
 })
-  	end    
-})
-wait(1)
-
-     		OrionLib:MakeNotification({
+			wait(1)
+			   		OrionLib:MakeNotification({
 	Name = "Key !",
 	Content = "A key do script e : ZKlajks181a3r2",
 	Image = "rbxassetid://",
 	Time = 16
 })
   	end    
+		
 })
+
+  
 
 Game:AddButton({
 	Name = "King Legacy",
@@ -239,7 +239,7 @@ Game:AddButton({
 })
 
 Game:AddButton({
-	Name = "Murderer vs Sheriff Duel",
+	Name = "Murderer vs Sherrif Duel",
 	Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/Duels214/main/Sheriffs1"))()
       		OrionLib:MakeNotification({
