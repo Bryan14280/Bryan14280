@@ -1,15 +1,22 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
-local Window = OrionLib:MakeWindow({Name = "BRHUB (Versão 0.2)", HidePremium = false, SaveConfig = false, ConfigFolder = "OrionTest", IntroEnabled = false})
+local Window = OrionLib:MakeWindow({Name = "BRHUB (Versão 0.3)", HidePremium = false, SaveConfig = false, ConfigFolder = "OrionTest", IntroEnabled = false})
 
 OrionLib:MakeNotification({
 	Name = "Carregando BRHUB... ",
 	Content = "Seja bem vindo !",
 	Image = "rbxassetid://",
-	Time = 5
+	Time = 3
 })
 
-
+wait(2)
+OrionLib:MakeNotification({
+	Name = "Atualizado para a versão 0.3 ! ",
+	Content = "Adicionado mais jogos a área -GAMES- ",
+	Image = "rbxassetid://",
+	Time = 5
+})
+wait(5)
 
 local Info = Window:MakeTab({
 	Name = "Informações",
@@ -38,6 +45,70 @@ Game:AddButton({
   	end    
 })
 
+Game:AddButton({
+	Name = "BloxBurg",
+	Callback = function()
+      		loadstring(game:HttpGet("https://bestbloxburgbypass.lol/free/t1.lua"))()
+      		OrionLib:MakeNotification({
+	Name = "Carregado !",
+	Content = "BloxBurg script carregado com sucesso !",
+	Image = "rbxassetid://",
+	Time = 5
+})
+  	end    
+})
+
+Game:AddButton({
+	Name = "World Of Aincraft",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/Bebo-Mods/BeboScripts/main/AincradGame.lua'))()
+      		OrionLib:MakeNotification({
+	Name = "Carregado !",
+	Content = "World Of Aincraft script carregado com sucesso !",
+	Image = "rbxassetid://",
+	Time = 5
+})
+  	end    
+})
+
+Game:AddButton({
+	Name = "King Legacy",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-05/HUB/main/Script"))()
+      		OrionLib:MakeNotification({
+	Name = "Carregado !",
+	Content = "King Legacy script carregado com sucesso ! (PC E MOBILE) / BLOX FRUITS",
+	Image = "rbxassetid://",
+	Time = 5
+})
+  	end    
+})
+
+Game:AddButton({
+	Name = "Phantom Forces",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/VoidMasterX/strawhook/main/script.lua", true))()
+      		OrionLib:MakeNotification({
+	Name = "Carregado !",
+	Content = "Phantom Forces script carregado com sucesso !",
+	Image = "rbxassetid://",
+	Time = 5
+})
+  	end    
+})
+
+Game:AddButton({
+	Name = "Krush Pvp",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/Aimbot-V2/main/Resources/Scripts/Main.lua"))()
+      		OrionLib:MakeNotification({
+	Name = "Carregado !",
+	Content = "World Of Aincraft script carregado com sucesso !",
+	Image = "rbxassetid://",
+	Time = 5
+})
+  	end    
+})
 
 Game:AddButton({
 	Name = "VolleyBall",
