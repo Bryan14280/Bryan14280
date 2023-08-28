@@ -8,13 +8,13 @@ OrionLib:MakeNotification({
 })
 wait(5)
 OrionLib:MakeNotification({
-	Name = "Atualizado para a versão 0.4 ! ",
+	Name = "Atualizado para a versão 0.5 ! ",
 	Content = "Adicionado mais jogos a área GAMES ",
 	Image = "rbxassetid://",
 	Time = 5
 })
 
-local Window = OrionLib:MakeWindow({Name = "BRHUB (Versão 0.4)", HidePremium = false, SaveConfig = false, ConfigFolder = "OrionTest", IntroEnabled = false})
+local Window = OrionLib:MakeWindow({Name = "BRHUB (Versão 0.5)", HidePremium = false, SaveConfig = false, ConfigFolder = "OrionTest", IntroEnabled = false})
 
 local Info = Window:MakeTab({
 	Name = "Informações",
@@ -137,6 +137,20 @@ Game:AddButton({
 })
 
 Game:AddButton({
+	Name = "Funky Fryday",
+	Callback = function()
+      		 loadstring(game:HttpGet("https://raw.githubusercontent.com/ShowerHead-FluxTeam/scripts/main/funky-friday-autoplay"))()
+      		OrionLib:MakeNotification({
+	Name = "Carregado !",
+	Content = "Funky Fryday AutoPlay script carregado com sucesso !",
+	Image = "rbxassetid://",
+	Time = 5
+})
+  	end    
+})
+
+
+Game:AddButton({
 	Name = "Flee the Facility",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/NexIsHot/Lunar/main/FTF.lua",true))()
@@ -149,6 +163,28 @@ Game:AddButton({
   	end    
 })
 
+Game:AddButton({
+	Name = "Jailbreak",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GuruScripts/GuruHub/main/GuruLoader"))()
+      		OrionLib:MakeNotification({
+	Name = "Carregado !",
+	Content = "Jailbreak script carregado com sucesso !",
+	Image = "rbxassetid://",
+	Time = 5
+})
+  	end    
+})
+wait(1)
+
+     		OrionLib:MakeNotification({
+	Name = "Key !",
+	Content = "A key do script e : ZKlajks181a3r2",
+	Image = "rbxassetid://",
+	Time = 16
+})
+  	end    
+})
 
 Game:AddButton({
 	Name = "King Legacy",
@@ -203,6 +239,20 @@ Game:AddButton({
 })
 
 Game:AddButton({
+	Name = "Murderer vs Sheriff Duel",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/Duels214/main/Sheriffs1"))()
+      		OrionLib:MakeNotification({
+	Name = "Carregado !",
+	Content = "Murderer vs Sheriff Duel script carregado com sucesso !",
+	Image = "rbxassetid://",
+	Time = 5
+})
+  	end    
+})
+
+
+Game:AddButton({
 	Name = "Phantom Forces",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/VoidMasterX/strawhook/main/script.lua", true))()
@@ -227,6 +277,21 @@ Game:AddButton({
 })
   	end    
 })
+
+Game:AddButton({
+	Name = "Spider",
+	Callback = function()
+      		_G.Theme = "Dark"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/Spider.lua"))()
+      		OrionLib:MakeNotification({
+	Name = "Carregado !",
+	Content = "Spider script carregado com sucesso !",
+	Image = "rbxassetid://",
+	Time = 5
+})
+  	end    
+})
+
 
 Game:AddButton({
 	Name = "Tower of Hell",
