@@ -11,7 +11,7 @@ OrionLib:MakeNotification({
 
 OrionLib:MakeNotification({
 	Name = "Atualizado para a versão 0.3 ! ",
-	Content = "Adicionado mais jogos a área -GAMES- ",
+	Content = "Adicionado mais jogos a área GAMES ",
 	Image = "rbxassetid://",
 	Time = 5
 })
