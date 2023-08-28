@@ -8,7 +8,7 @@ OrionLib:MakeNotification({
 })
 wait(2)
 OrionLib:MakeNotification({
-	Name = "Atualizado para a versão 0.3 ! ",
+	Name = "Atualizado para a versão 0.4 ! ",
 	Content = "Adicionado mais jogos a área GAMES ",
 	Image = "rbxassetid://",
 	Time = 5
