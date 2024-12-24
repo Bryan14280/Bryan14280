@@ -1,6 +1,6 @@
 local p1 = game.Players.LocalPlayer
 local HitboxSize = 15
-local HitboxTransparency = 0.5
+local HitboxTransparency = 0
 local IgnoreTeam = true
 local DesiredBodyPart = "Torso"
 
